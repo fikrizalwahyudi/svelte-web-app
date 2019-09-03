@@ -22,6 +22,7 @@
     "bootstrap": "^4.3.1",
     "fa-svelte": "^3.0.0",
     "svelte-icons": "^1.1.0",
+    "svelte-routing": "^1.4.0",
     "sveltestrap": "^3.0.4"
   }
 }
