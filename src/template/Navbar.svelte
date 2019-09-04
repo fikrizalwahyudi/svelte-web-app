@@ -1,7 +1,7 @@
 <script>
 import FaBars from 'svelte-icons/fa/FaBars.svelte';
 import IoIosMore from 'svelte-icons/io/IoIosMore.svelte';
-import {Navbar, Nav, NavItem, NavLink, } from 'sveltestrap';
+import {Navbar, Nav, NavItem, NavLink } from 'sveltestrap';
 
   let isOpen = false;
 

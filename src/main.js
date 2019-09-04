@@ -1,7 +1,4 @@
-import App from './routes/Password.svelte';
-//import App from './App.svelte';
-//import App from './routes/GeneratePDF.svelte';
-//import App from './Persetujuan_nasabah.svelte';
+import App from './App.svelte';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../public/pdf.css';
 
@@ -11,7 +8,6 @@ const app = new App({
 		name: 'world'
 	}
 });
-
 
 window.app = app;
 

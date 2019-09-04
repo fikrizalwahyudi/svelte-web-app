@@ -1,23 +1,34 @@
-    
-<script>
-  import { Router, Route, Link } from "svelte-routing";
-  //import Link from "./components/Link.svelte";
-  import Password from "./routes/Password.svelte";
-  import Persetujuan_nasabah from "./routes/Persetujuan_nasabah.svelte";
-  import GeneratePDF from "./routes/GeneratePDF.svelte";
-  // Used for SSR. A falsy value is ignored by the Router.
 
+<Router {routes}/>
+<div id="app" class="mt-4 mb-4" >
+<Navbar/>
+
+<Card body color="danger">
+  <CardBody>
+    <Row class="row justify-content-center mt-5 pt-5">
+        <Col xs="10" >
+        <FormGroup>
+            <p class="text-light text-center">Masukkan Password Anda</p>
+            <Input xs="3" type="password" name="password" id="password" placeholder="Password" />
+            <a href="/generatepdf" use:link use:active><Button  class="mt-3" block color="secondary">Masuk</Button></a>
+            <a href="/persetujuan_nasabah" use:link use:active><Button  class="mt-3" block color="secondary">Ke halaman Persetujuan</Button></a>
+          
+            <!-- <a href="/persetujuan_nasabah" use:link use:active><Button  class="mt-3" block color="secondary">Masuk</Button></!--> 
+        </FormGroup>
+        </Col>
+    </Row>
+  </CardBody>
+</Card>
+</div>
+
+<script>
+  import Navbar from './template/Navbar.svelte';
+  import { Col, Row, Button, Label, Card, CardBody, Form, FormGroup, FormText, Input } from 'sveltestrap';
+  import Router from 'svelte-spa-router';
+  import routes from './routes';
+  import active from 'svelte-spa-router/active';
+  import {link, push, pop, replace, location, querystring} from 'svelte-spa-router';
+  // Used for SSR. A falsy value is ignored by the Router.
 </script>
 
-<Router>
-  <nav>
-    <Link to="Password">Password</Link>
-    <Link to="Persetujuan_nasabah">Persetujuan_nasabah</Link>
-    <Link to="GeneratePDF">GeneratePDF</Link>
-  </nav>
-  <div>
-    <Route path="Password" component="{Password}" />
-    <Route path="Persetujuan_nasabah" component="{Persetujuan_nasabah}" />
-    <Route path="GeneratePDF" component="{GeneratePDF}" />
-  </div>
-</Router>
+
