@@ -1,6 +1,6 @@
 <script>
-import Navbar from './Navbar.svelte';
-import Footer from './F_Confirm.svelte';
+import Navbar from '../template/Navbar.svelte';
+import Footer from '../template/F_Confirm.svelte';
 </script>
 
 <style>
