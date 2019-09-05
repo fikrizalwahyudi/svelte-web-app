@@ -10,9 +10,9 @@
         <FormGroup>
             <p class="text-light text-center">Masukkan Password Anda</p>
             <Input xs="3" type="password" name="password" id="password" placeholder="Password" />
-            <a href="/generatepdf" use:link use:active><Button  class="mt-3" block color="secondary">Masuk</Button></a>
-            <a href="/persetujuan_nasabah" use:link use:active><Button  class="mt-3" block color="secondary">Ke halaman Persetujuan</Button></a>
-          
+            <a href="/generatepdf" use:link><Button  class="mt-3" block color="secondary">Masuk</Button></a>
+            <a href="/persetujuan_nasabah" use:link><Button  class="mt-3" block color="secondary">Ke halaman Persetujuan</Button></a>
+
             <!-- <a href="/persetujuan_nasabah" use:link use:active><Button  class="mt-3" block color="secondary">Masuk</Button></!--> 
         </FormGroup>
         </Col>
