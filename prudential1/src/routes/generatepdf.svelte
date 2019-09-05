@@ -185,7 +185,7 @@ body {
 
 	</script>
     <script>
-      initPDFViewer("../../static/output.pdf");
+      initPDFViewer("output.pdf");
     </script>
 	<navbar  class="navbar bg-light fixed-bottom">
 		<div class="col-12">
