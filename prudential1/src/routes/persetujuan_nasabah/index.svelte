@@ -22,7 +22,7 @@
 </svelte:head>
 
 
-<div id="container" class="mt-5 mb-5" >
+<div id="container" class="mt-5 mb-5 pt-5">
 	<ul>
 		<li><a rel='prefetch' href='persetujuan_nasabah/syarat-dan-ketentuan'>Syarat dan Ketentuan</a></li>
 		<li><a rel='prefetch' href='persetujuan_nasabah/tabel-manfaat-pruprime-healthcare-plus'>Tabel Manfaat PRUPrime Healthcare PLUS</a></li>
@@ -31,7 +31,7 @@
 		<li><a rel='prefetch' href='persetujuan_nasabah/informasi-pengecualian'>Informasi Pengecualian</a></li>
 	</ul>
 </div>
-	<p class=" text-justify mt-5">“Saya dengan ini menyetuju perubahan Polis sesuai dengan Manfaat Kesehatan yang tertera pada penawaran ini, dan akan diproses tanpa melalui permintaan pemeriksaan kesehatan jika status Polis tetap aktif serta sesuai dengan syarat dan ketentuan.”</p>
+	<p class=" text-justify mt-5">“Saya dengan ini menyetujui perubahan Polis sesuai dengan Manfaat Kesehatan yang tertera pada penawaran ini, dan akan diproses tanpa melalui permintaan pemeriksaan kesehatan jika status Polis tetap aktif serta sesuai dengan syarat dan ketentuan.”</p>
 	<p class=" text-justify mt-5">Klik Setuju untuk pengajuan perubahan Polis ini</p>
 <navbar  class="navbar bg-light fixed-bottom">
 	<div class="col-12">
