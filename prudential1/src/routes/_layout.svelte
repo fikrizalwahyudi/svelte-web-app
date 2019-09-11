@@ -8,10 +8,8 @@
 
 		function checkScrollHeight() {
 			var agreementTextElement = document.getElementsByName("container_terms")[0];
-
 			if (agreementTextElement.clientHeight + agreementTextElement.scrollTop >= agreementTextElement.scrollHeight) {
-				document.getElementsByName("agree")[0].disabled = false;
-			
+				document.getElementsByName("agree")[0].disabled = false;	
 			}
 		}
 	});
